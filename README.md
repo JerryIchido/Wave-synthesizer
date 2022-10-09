@@ -12,7 +12,7 @@ Then input the desired file length. Longer times will lead to longer generating 
 
 Then input the frequencies and relative amplitudes (0-100) of the sine waves. Bit depths is fixed as 16 bits, and all amplitude are relative based on a sum of 100. This means 5 waves with 100 amplitude will sound the same as 5 waves with 20 amplitude. (They will be standardized so that they sum to 100!) However, if sum of amplitude is less than 100, you will be able to hear quieter sounds. 
 
-Note: If you want less than 5 waves to be summed, leave the unwanted waves¡¯ frequency and amplitude to 0. 
+Note: If you want less than 5 waves to be summed, leave the unwanted waves' frequency and amplitude to 0. 
 
 Hitting enter will start the processing of the wave file. It will be outputted to the same directory of the exe file. 
 
@@ -30,7 +30,9 @@ The sound waves the program generate follows that format. It is in PCM format, 1
 IV. Some more Tips
 
 Though the program supports very high sampling rates (like 44.1kHz, 192 kHz), the sound quality doesn¡¯t get better with the sampling rate (according to the sampling theorem.) Theoretically, more than twice of the maximum frequency shall be enough. In practice we usually raise the limit to 2.5x to provide some buffer for the filter. The quality of audio depends predominately on the bit depth, which is 16 bits here (CD quality). (We don¡¯t expect quality from sine wave sounds, though.)
-It is also advised that you don¡¯t generate waves with too high amplitudes or frequencies. Also, use speakers instead of headphones. Simple sine waves sound horrible and MAY CAUSE DAMAGE to hearing and speakers. Lower your volume before testing. A wave with frequency around 440 Hz should be fine. 
+It is also advised that you don¡¯t generate waves with too high amplitudes or frequencies. Also, use speakers instead of headphones. Simple sine waves sound horrible and MAY CAUSE DAMAGE to hearing and speakers. Lower your volume before testing. 
+
+Have fun!
 
 
 
